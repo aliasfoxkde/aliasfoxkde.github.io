@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Micheal Kinney</title>
+    <meta name="description" content="Detailed information about Micheal Kinney's software projects and contributions">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Reuse main styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+        .back-link { display: inline-block; color: white; text-decoration: none; margin-bottom: 20px; padding: 10px 20px; background: rgba(255,255,255,0.2); border-radius: 8px; transition: background 0.3s; }
+        .back-link:hover { background: rgba(255,255,255,0.3); }
+
+        .project-detail { background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 40px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); }
+
+        .project-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 30px; flex-wrap: wrap; gap: 20px; }
+        .project-title h1 { font-size: 36px; color: #667eea; margin-bottom: 10px; }
+        .project-meta { display: flex; gap: 15px; flex-wrap: wrap; }
+        .meta-item { background: rgba(102, 126, 234, 0.1); padding: 8px 15px; border-radius: 20px; font-size: 14px; }
+
+        .project-section { margin-bottom: 30px; }
+        .project-section h2 { color: #667eea; margin-bottom: 15px; font-size: 24px; }
+
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .feature-item { background: rgba(102, 126, 234, 0.05); padding: 15px; border-radius: 10px; border-left: 3px solid #667eea; }
+        .feature-item h3 { font-size: 16px; margin-bottom: 5px; color: #333; }
+        .feature-item p { font-size: 14px; color: #666; }
+
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; }
+        .stat-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 10px; text-align: center; }
+        .stat-card .number { font-size: 32px; font-weight: bold; margin-bottom: 5px; }
+        .stat-card .label { font-size: 14px; opacity: 0.9; }
+
+        .tech-stack { display: flex; flex-wrap: wrap; gap: 10px; }
+        .tech-item { background: #667eea; color: white; padding: 8px 15px; border-radius: 20px; font-size: 14px; }
+
+        .project-links { display: flex; gap: 15px; margin-top: 20px; }
+        .project-links a { padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: transform 0.3s; }
+        .project-links .primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .project-links .secondary { background: rgba(102, 126, 234, 0.1); color: #667eea; }
+        .project-links a:hover { transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+
+        <div class="project-detail">
+            <div class="project-header">
+                <div class="project-title">
+                    <h1>🚀 Atheon Projects</h1>
+                    <p>Comprehensive pattern matching and security scanning ecosystem</p>
+                </div>
+                <div class="project-meta">
+                    <div class="meta-item"><i class="fas fa-star"></i> 4 Projects</div>
+                    <div class="meta-item"><i class="fas fa-code-branch"></i> Active Development</div>
+                    <div class="meta-item"><i class="fas fa-users"></i> Open Source</div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>📊 Project Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="number">179+</div>
+                        <div class="label">Security Patterns</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">85%</div>
+                        <div class="label">Test Coverage</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">19</div>
+                        <div class="label">Pattern Categories</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">99.9%</div>
+                        <div class="label">System Uptime</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>🎯 Core Projects</h2>
+
+                <div style="margin-bottom: 30px; padding: 20px; background: rgba(102, 126, 234, 0.05); border-radius: 10px;">
+                    <h3 style="color: #667eea; margin-bottom: 10px;">Atheon (Core)</h3>
+                    <p style="margin-bottom: 15px;">Advanced pattern matching engine for security scanning and code analysis with 179+ patterns across 19 categories.</p>
+                    <div class="feature-grid" style="margin-bottom: 15px;">
+                        <div class="feature-item">
+                            <h3>🔍 Pattern Detection</h3>
+                            <p>Comprehensive security pattern library</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>⚡ High Performance</h3>
+                            <p>Optimized scanning with parallel processing</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>🔧 CLI Tool</h3>
+                            <p>Easy-to-use command-line interface</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>🔌 MCP Server</h3>
+                            <p>Model Context Protocol integration</p>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <div class="tech-item">Go</div>
+                        <div class="tech-item">Regex</div>
+                        <div class="tech-item">CLI</div>
+                        <div class="tech-item">MCP</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/aliasfoxkde/Atheon" class="primary" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 30px; padding: 20px; background: rgba(102, 126, 234, 0.05); border-radius: 10px;">
+                    <h3 style="color: #667eea; margin-bottom: 10px;">Atheon-GitHub-Scanner</h3>
+                    <p style="margin-bottom: 15px;">Automated security scanning for GitHub repositories with actionable insights and recommendations.</p>
+                    <div class="feature-grid" style="margin-bottom: 15px;">
+                        <div class="feature-item">
+                            <h3>🔍 Repository Scanning</h3>
+                            <p>Automated security analysis of GitHub repos</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>📊 Analytics Dashboard</h3>
+                            <p>Comprehensive security metrics and trends</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>🔔 Real-time Alerts</h3>
+                            <p>Automated security notifications</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>📈 Trend Analysis</h3>
+                            <p>Security posture tracking over time</p>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <div class="tech-item">GitHub API</div>
+                        <div class="tech-item">Security</div>
+                        <div class="tech-item">Analytics</div>
+                        <div class="tech-item">Automation</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/aliasfoxkde/Atheon-GitHub-Scanner" class="primary" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div style="padding: 20px; background: rgba(102, 126, 234, 0.05); border-radius: 10px;">
+                    <h3 style="color: #667eea; margin-bottom: 10px;">Atheon-Enhanced</h3>
+                    <p style="margin-bottom: 15px;">Enhanced version with automation, ML optimization, and enterprise features for advanced security scanning.</p>
+                    <div class="feature-grid" style="margin-bottom: 15px;">
+                        <div class="feature-item">
+                            <h3>🤖 ML Optimization</h3>
+                            <p>Machine learning-based pattern enhancement</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>🔄 Automation</h3>
+                            <p>Daily automated pattern discovery and deployment</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>🏢 Enterprise</h3>
+                            <p>Advanced features for enterprise deployment</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>📊 Intelligence</h3>
+                            <p>Cross-project pattern intelligence sharing</p>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <div class="tech-item">Machine Learning</div>
+                        <div class="tech-item">Automation</div>
+                        <div class="tech-item">Enterprise</div>
+                        <div class="tech-item">Security</div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/aliasfoxkde/Atheon-Enhanced" class="primary" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>🛠️ Development Approach</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h3>🧪 Testing</h3>
+                        <p>Comprehensive test coverage with 85%+ coverage rate</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>📚 Documentation</h3>
+                        <p>Extensive documentation and usage examples</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>🔄 CI/CD</h3>
+                        <p>Automated testing and deployment pipelines</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>🤝 Community</h3>
+                        <p>Active open source community engagement</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>📈 Roadmap</h2>
+                <div style="background: rgba(102, 126, 234, 0.05); padding: 20px; border-radius: 10px;">
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">✓</span>
+                            <strong>Phase 1:</strong> Foundation & Infrastructure (Complete)
+                        </li>
+                        <li style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">✓</span>
+                            <strong>Phase 2:</strong> Pattern Library Expansion & Automation (In Progress)
+                        </li>
+                        <li style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">→</span>
+                            <strong>Phase 3:</strong> Performance Optimization (Planned)
+                        </li>
+                        <li style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">→</span>
+                            <strong>Phase 4:</strong> MCP Integration Enhancement (Planned)
+                        </li>
+                        <li style="padding-left: 20px; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">→</span>
+                            <strong>Phase 5:</strong> Enterprise Features & Cross-Project Integration (Planned)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
