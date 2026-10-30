@@ -29,11 +29,18 @@ This is my personal GitHub Pages website showcasing my projects, skills, and con
 aliasfoxkde.github.io/
 ├── index.html          # Main homepage
 ├── projects.html       # Detailed projects page
+├── examples/           # Interactive profile widget demos and data notes
+│   ├── index.html      # Profile Widget Lab
+│   └── about.html      # Data sources, privacy, and limitations
 ├── README.md          # This file
 └── assets/           # Static assets (future)
 ```
 
 ## 🎯 Sections
+
+### Examples
+- [Profile Widget Lab](https://aliasfoxkde.github.io/examples/) — interactive sample stats, language and activity charts, an embed preview, and a snake-style username SVG.
+- [About the examples](https://aliasfoxkde.github.io/examples/about.html) — data definitions, privacy notes, and limitations.
 
 ### Homepage (index.html)
 - Hero section with introduction
