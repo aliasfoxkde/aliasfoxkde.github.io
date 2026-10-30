@@ -31,7 +31,9 @@ aliasfoxkde.github.io/
 ├── projects.html       # Detailed projects page
 ├── examples/           # Interactive profile widget demos and data notes
 │   ├── index.html      # Profile Widget Lab
-│   └── about.html      # Data sources, privacy, and limitations
+│   ├── creative.html   # Additional profile patterns and interactions
+│   ├── about.html      # Data sources, privacy, and limitations
+│   └── svg-library/    # MIT-licensed browser SVG generator and export guide
 ├── README.md          # This file
 └── assets/           # Static assets (future)
 ```
@@ -40,7 +42,10 @@ aliasfoxkde.github.io/
 
 ### Examples
 - [Profile Widget Lab](https://aliasfoxkde.github.io/examples/) — interactive sample stats, language and activity charts, an embed preview, and a snake-style username SVG.
+- [Profile Ideas Gallery](https://aliasfoxkde.github.io/examples/creative.html) — original demos for tags, tables, icons, banners, text art, and a browser-only mini-game.
+- [SVG Profile Library](https://aliasfoxkde.github.io/examples/svg-library/) — customize and export reusable SVG profile headers, summary cards, and pixel snake wordmarks.
 - [About the examples](https://aliasfoxkde.github.io/examples/about.html) — data definitions, privacy notes, and limitations.
+- [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme) — broad inspiration catalog; check each external tool’s maintenance, license, and data practices before use.
 
 ### Homepage (index.html)
 - Hero section with introduction
