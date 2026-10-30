@@ -27,12 +27,16 @@ This is my personal GitHub Pages website showcasing my projects, skills, and con
 
 ```
 aliasfoxkde.github.io/
+├── AGENTS.md           # Contribution guidance for coding agents
 ├── index.html          # Main homepage
 ├── projects.html       # Detailed projects page
 ├── examples/           # Interactive profile widget demos and data notes
 │   ├── index.html      # Profile Widget Lab
+│   ├── projects.html   # Interactive screenshot flip-card gallery
 │   ├── creative.html   # Additional profile patterns and interactions
 │   ├── about.html      # Data sources, privacy, and limitations
+│   ├── assets/          # Optimized screenshots used by the cloneable demos
+│   ├── README.md        # Local preview and reuse guide
 │   └── svg-library/    # MIT-licensed browser SVG generator and export guide
 ├── README.md          # This file
 └── assets/           # Static assets (future)
@@ -43,6 +47,7 @@ aliasfoxkde.github.io/
 ### Examples
 - [Profile Widget Lab](https://aliasfoxkde.github.io/examples/) — interactive sample stats, language and activity charts, an embed preview, and a snake-style username SVG.
 - [Profile Ideas Gallery](https://aliasfoxkde.github.io/examples/creative.html) — original demos for tags, tables, icons, banners, text art, and a browser-only mini-game.
+- [Interactive Project Cards](https://aliasfoxkde.github.io/examples/projects.html) — flip through project screenshots for descriptions and source/demo links.
 - [SVG Profile Library](https://aliasfoxkde.github.io/examples/svg-library/) — customize and export reusable SVG profile headers, summary cards, and pixel snake wordmarks.
 - [About the examples](https://aliasfoxkde.github.io/examples/about.html) — data definitions, privacy notes, and limitations.
 - [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme) — broad inspiration catalog; check each external tool’s maintenance, license, and data practices before use.
